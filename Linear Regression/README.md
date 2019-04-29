@@ -7,7 +7,7 @@
 ###### 假设函数(hypothesis function)
 在给定一些样本数据(training set)后，采用某种学习算法(learning algorithm)对样本数据进行训练，得到了一个模型或者说是假设函数。当需要预测新数据的结果时，将新数据作为假设函数的输入，假设函数计算后得到结果，这个结果就作为预测值。
 
-$$ h(z) = \sum_{n=0}^n \theta_ix_i = \theta^Tx $$
+$$ h_\theta(x) = \theta^Tx $$
 
 ###### 代价函数(cost function)
 学习过程就是确定假设函数的过程，或者说是：求出 θ 的过程。
